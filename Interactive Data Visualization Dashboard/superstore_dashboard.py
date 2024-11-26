@@ -8,7 +8,7 @@ import streamlit as st
 def load_data():
     try:
         data = pd.read_csv(
-            r"D:\Data Science Projects\Interactive Data Visualization Dashboard\Dataset\Superstore.csv",
+            "https://github.com/Johnmahith/SuperstoreDashboard/blob/main/Interactive%20Data%20Visualization%20Dashboard/Dataset/Superstore.csv",
             encoding="latin1"  # Adjust encoding if needed
         )
         # Preprocess date columns
